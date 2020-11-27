@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateJokeViewController" customModule="Jokes" customModuleProvider="target">
+            <connections>
+                <outlet property="backView" destination="lCB-nb-vqu" id="KCQ-fD-3eO"/>
+                <outlet property="cancelButton" destination="ITD-AN-Vfn" id="7XB-2V-u2S"/>
+                <outlet property="saveButton" destination="jv8-cO-u03" id="o9U-Mc-W07"/>
+                <outlet property="textView" destination="z2R-Ir-pBl" id="F7e-sA-eB5"/>
+                <outlet property="view" destination="fZU-Ba-CXR" id="Qit-7Y-0cy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fZU-Ba-CXR">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lCB-nb-vqu">
+                    <rect key="frame" x="20" y="229" width="374" height="218"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z2R-Ir-pBl">
+                            <rect key="frame" x="8" y="8" width="358" height="157"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ITD-AN-Vfn">
+                            <rect key="frame" x="242" y="180" width="48" height="30"/>
+                            <state key="normal" title="Cancel"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jv8-cO-u03">
+                            <rect key="frame" x="310" y="180" width="34" height="30"/>
+                            <state key="normal" title="Save"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="z2R-Ir-pBl" secondAttribute="trailing" constant="8" id="CUe-TY-20r"/>
+                        <constraint firstAttribute="bottom" secondItem="ITD-AN-Vfn" secondAttribute="bottom" constant="8" id="ESF-GJ-AoY"/>
+                        <constraint firstItem="z2R-Ir-pBl" firstAttribute="top" secondItem="lCB-nb-vqu" secondAttribute="top" constant="8" id="Ikd-5w-Fxq"/>
+                        <constraint firstItem="jv8-cO-u03" firstAttribute="top" secondItem="z2R-Ir-pBl" secondAttribute="bottom" constant="15" id="K54-2F-ELJ"/>
+                        <constraint firstAttribute="bottom" secondItem="jv8-cO-u03" secondAttribute="bottom" constant="8" id="WCd-WS-voF"/>
+                        <constraint firstItem="ITD-AN-Vfn" firstAttribute="top" secondItem="z2R-Ir-pBl" secondAttribute="bottom" constant="15" id="fgI-o1-SPH"/>
+                        <constraint firstItem="jv8-cO-u03" firstAttribute="leading" secondItem="ITD-AN-Vfn" secondAttribute="trailing" constant="20" id="jy8-W9-hpo"/>
+                        <constraint firstAttribute="trailing" secondItem="jv8-cO-u03" secondAttribute="trailing" constant="30" id="lSf-yv-MFu"/>
+                        <constraint firstItem="z2R-Ir-pBl" firstAttribute="leading" secondItem="lCB-nb-vqu" secondAttribute="leading" constant="8" id="poN-7S-AA3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="0.63715889084507038" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="lCB-nb-vqu" firstAttribute="centerX" secondItem="fZU-Ba-CXR" secondAttribute="centerX" id="1LH-GE-NaR"/>
+                <constraint firstItem="lCB-nb-vqu" firstAttribute="centerY" secondItem="fZU-Ba-CXR" secondAttribute="centerY" multiplier="0.755" id="WbJ-uz-aXO"/>
+                <constraint firstItem="lCB-nb-vqu" firstAttribute="height" secondItem="fZU-Ba-CXR" secondAttribute="height" multiplier="0.243304" id="llT-gQ-sPq"/>
+                <constraint firstItem="lCB-nb-vqu" firstAttribute="width" secondItem="fZU-Ba-CXR" secondAttribute="width" multiplier="0.903382" id="sgf-T6-YcQ"/>
+            </constraints>
+            <point key="canvasLocation" x="69.565217391304358" y="85.714285714285708"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Jokes/Pods-Jokes-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/DataRaft/DataRaft.framework
+${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework

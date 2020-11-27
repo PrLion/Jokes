@@ -1,0 +1,6 @@
+framework module DataRaft {
+  umbrella header "DataRaft-umbrella.h"
+
+  export *
+  module * { export * }
+}

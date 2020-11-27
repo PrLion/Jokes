@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.2.2)
+  - DataRaft (1.0.6)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - Alamofire (= 5.2.2)
+  - DataRaft (= 1.0.6)
+  - PromiseKit (= 6.13.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DataRaft
+    - PromiseKit
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  DataRaft: c44fb59791f394a43d1465ee83e590990b4c1985
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+
+PODFILE CHECKSUM: aa4ba8ddf8ba0eebc8754eb56fdf68bb9dce65bb
+
+COCOAPODS: 1.9.3
